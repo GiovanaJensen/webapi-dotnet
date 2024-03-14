@@ -24,7 +24,14 @@ namespace MyFirstWebApi.Controllers
         private static List<Filme> filmes = new List<Filme>();
         private static int id = 0;
 
+        /// <summary>
+        /// Adiciona um filme ao banco de dados
+        /// </summary>
+        /// <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+        /// <returns>IActionResult</returns>
+        /// <response code="201">Caso inserção seja feita com sucesso</response>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public IActionResult adicionaFilme([FromBody] CreateFilmeDto filmeDto){
             var filme = _mapper.Map<Filme>(filmeDto);
             filme.Id = id++;
@@ -50,6 +57,15 @@ namespace MyFirstWebApi.Controllers
             var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
             if(filme == null) return NotFound();
             _mapper.Map(filmeDto, filme);
+            _context.SaveChanges();
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult removerFilme(int id){
+            var filme = _context.Filmes.FirstOrDefault(filme => filme.Id == id);
+            if(filme == null) return NotFound();
+            _context.Remove(filme);
             _context.SaveChanges();
             return NoContent();
         }
