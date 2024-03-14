@@ -14,6 +14,7 @@ namespace MyFirstWebApi.Profiles
         public FilmeProfile()
         {
             CreateMap<CreateFilmeDto, Filme>();
+            CreateMap<UpdateFilmeDto, Filme>();
         }
     }
 }

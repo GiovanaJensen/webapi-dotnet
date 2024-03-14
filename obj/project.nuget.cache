@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "m+n5v50eO0DrCDqeWlcITjdm9WztOJlle9Sjo06T9wDVb8lGfGC25nTGFvxYg3QCcL8t91Z988KrawfrhRsl2A==",
+  "dgSpecHash": "5Yz0jGr8Ssh8+vCRhv8JtTh7ocBbCkLHmcI2NRmK8+B3JZB1AuFwdOY6ksNuV/6hkiDMp3XDAlPQSN1emy5GTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ModalGR-000985\\Documents\\backend-projects\\MyFirstWebApi\\MyFirstWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.3\\microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
+    "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
@@ -36,6 +37,7 @@
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ModalGR-000985\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
