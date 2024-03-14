@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bpYaygYKpefkEb/SI31p+3HQFXOdta/W+ecm8prT7kdyvddtahKL/krIgVK3LeubyIf/MB1cIEOyVqxrqRP8uA==",
+  "dgSpecHash": "m+n5v50eO0DrCDqeWlcITjdm9WztOJlle9Sjo06T9wDVb8lGfGC25nTGFvxYg3QCcL8t91Z988KrawfrhRsl2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ModalGR-000985\\Documents\\backend-projects\\MyFirstWebApi\\MyFirstWebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ModalGR-000985\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ModalGR-000985\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
