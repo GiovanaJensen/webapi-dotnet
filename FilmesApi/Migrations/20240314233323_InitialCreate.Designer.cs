@@ -2,6 +2,7 @@
 using FilmesApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmesApi.Migrations
 {
     [DbContext(typeof(FilmeContext))]
-    partial class FilmeContextModelSnapshot : ModelSnapshot
+    [Migration("20240314233323_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,24 +33,6 @@ namespace FilmesApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cinemas");
-                });
-
-            modelBuilder.Entity("FilmesApi.Models.Endereco", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Logradouro")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<int>("Numero")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Enderecos");
                 });
 
             modelBuilder.Entity("FilmesApi.Models.Filme", b =>
